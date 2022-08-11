@@ -1,0 +1,650 @@
+CRITICAL - 2022-08-03 01:45:02 --> Class 'commonuserlib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('_add_client', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('_add_client')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(157): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->updateClient()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-03 01:45:21 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('_add_client', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('_add_client')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(157): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->updateClient()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-03 01:45:23 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('_add_client', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('_add_client')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(157): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->updateClient()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-03 02:08:14 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Views\userlist_view.php(37): App\Libraries\commonuserlib::userType_dropdown()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('userlist_view', Array, true)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('userlist_view')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\user.php(31): view('template', Array)
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\User->index()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-03 02:08:37 --> Unknown column 'role_id' in 'field list'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `role_id...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `role_id...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `role_id...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `role_id...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Libraries\commonuserlib.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Views\userlist_view.php(37): App\Libraries\commonuserlib->userType_dropdown()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('userlist_view', Array, true)
+#8 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('userlist_view')
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#11 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\user.php(31): view('template', Array)
+#12 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\User->index()
+#13 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#14 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#16 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#17 {main}
+CRITICAL - 2022-08-03 02:10:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Views\userlist_view.php(37): App\Libraries\commonuserlib->userType_dropdown()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('userlist_view', Array, true)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('userlist_view')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\user.php(31): view('template', Array)
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\User->index()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-03 02:17:56 --> Call to undefined method CodeIgniter\View\View::request()
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('add_user', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('add_user')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\user.php(99): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\User->addUser()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-03 02:20:33 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 62, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getAllEmployees()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 02:20:37 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 62, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getAllEmployees()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 02:21:25 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 62, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getAllEmployees()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 02:21:25 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 62, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getAllEmployees()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 02:53:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Views\listdropdownview.php(40): App\Libraries\commonuserlib->getDropdowns()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('listdropdownvie...', Array, true)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('listdropdownvie...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\editdropdown.php(32): view('template', Array)
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Editdropdown->index()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Editdropdown))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-03 02:54:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Views\listdropdownview.php(40): App\Libraries\commonuserlib->getDropdowns()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('listdropdownvie...', Array, true)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('listdropdownvie...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\editdropdown.php(32): view('template', Array)
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Editdropdown->index()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Editdropdown))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-03 02:57:28 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\editdropdown.php(61): App\Libraries\commonuserlib::checkpagePermission(Array, '2')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Editdropdown->showSelectedValues()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Editdropdown))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 03:02:45 --> Call to undefined function App\Libraries\get_instance()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Views\user_activitylog.php(30): App\Libraries\commonuserlib::module_dropdown()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('user_activitylo...', Array, true)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('user_activitylo...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\user.php(355): view('template', Array)
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\User->userActivityLog()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-03 03:04:07 --> Call to a member function getPost() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('user_activitylo...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('user_activitylo...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\user.php(355): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\User->userActivityLog()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-03 03:05:27 --> Call to undefined function App\Libraries\get_instance()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Views\user_activitylog.php(39): App\Libraries\commonuserlib::user_dropdown()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('user_activitylo...', Array, true)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('user_activitylo...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\user.php(357): view('template', Array)
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\User->userActivityLog()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-03 03:09:42 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Views\user_activitylog.php(77): App\Libraries\commonuserlib::action_dropdown()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('user_activitylo...', Array, true)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('user_activitylo...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\user.php(357): view('template', Array)
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\User->userActivityLog()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-03 03:33:23 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('_list_reports', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('_list_reports')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\reports.php(36): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Reports->index()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-03 05:11:06 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('addReportTempla...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('addReportTempla...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\reports.php(317): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Reports->addReportTemplate()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-03 06:24:36 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:27:57 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(19): App\Models\VendorModel->__construct()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(890): App\Controllers\Vendor->__construct()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:28:12 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:41:03 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:43:07 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:43:09 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:43:10 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:45:15 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:51:34 --> Call to a member function select() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:52:28 --> Call to a member function select() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:52:30 --> Call to a member function select() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:52:47 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:55:43 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:55:45 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:57:06 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(38): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:57:08 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(38): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:57:08 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(38): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:58:27 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 06:58:29 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(37): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:01:38 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:06 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:07 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:09 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:09 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:10 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:10 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:23 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:24 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:24 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:25 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:25 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:53 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 07:02:55 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:02:37 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:06:00 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:06:00 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:06:01 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:06:01 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:06:01 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:07:32 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:07:33 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:10:48 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:10:49 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:10:49 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:17:27 --> You must set the database table to be used with your query.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(484): CodeIgniter\Model->builder()
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(151): CodeIgniter\Model->first()
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->updateVendor()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-03 08:20:49 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:21:01 --> Call to a member function select() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:21:49 --> Call to a member function join() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:22:14 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-03 08:22:25 --> Call to a member function table() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(30): App\Models\VendorModel->searchVendor()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->index()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}

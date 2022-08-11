@@ -1,0 +1,22 @@
+CRITICAL - 2022-07-10 23:05:08 --> Unable to connect to the database.
+#0 D:\xampp7.4\htdocs\c4login\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7.4\htdocs\c4login\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp7.4\htdocs\c4login\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp7.4\htdocs\c4login\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#4 D:\xampp7.4\htdocs\c4login\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 D:\xampp7.4\htdocs\c4login\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\xampp7.4\htdocs\c4login\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7.4\htdocs\c4login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp7.4\htdocs\c4login\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp7.4\\htd...')
+#9 {main}
+CRITICAL - 2022-07-10 23:05:23 --> Unable to connect to the database.
+#0 D:\xampp7.4\htdocs\c4login\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7.4\htdocs\c4login\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp7.4\htdocs\c4login\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp7.4\htdocs\c4login\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#4 D:\xampp7.4\htdocs\c4login\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 D:\xampp7.4\htdocs\c4login\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\xampp7.4\htdocs\c4login\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7.4\htdocs\c4login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp7.4\htdocs\c4login\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp7.4\\htd...')
+#9 {main}

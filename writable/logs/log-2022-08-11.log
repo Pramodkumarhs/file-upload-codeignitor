@@ -1,0 +1,1162 @@
+CRITICAL - 2022-08-11 01:49:24 --> Call to undefined method App\Controllers\Ajax_Post_Controller::FTP_libFTP_downloader()
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 02:00:40 --> Call to a member function searchEmployees() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->addTraining()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 02:05:45 --> Call to a member function decode() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('edit_training', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('edit_training')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(215): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->updateTrainingDetail('7')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:06:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\TrainingModel.php(104): App\Models\TrainingModel->getEmployeeFullNameTab('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(198): App\Models\TrainingModel->insertTrainingDetails('7')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->updateTrainingDetail('7')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-11 02:09:02 --> Not unique table/alias: 'employee'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `emp_fir...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `emp_fir...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `emp_fir...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `emp_fir...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\TrainingModel.php(172): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Models\TrainingModel.php(104): App\Models\TrainingModel->getEmployeeFullNameTab('1')
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(198): App\Models\TrainingModel->insertTrainingDetails('7')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->updateTrainingDetail('7')
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-11 02:09:15 --> Call to a member function decrypt() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\TrainingModel.php(104): App\Models\TrainingModel->getEmployeeFullNameTab('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(198): App\Models\TrainingModel->insertTrainingDetails('7')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->updateTrainingDetail('7')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-11 02:09:40 --> Call to a member function decrypt() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\TrainingModel.php(104): App\Models\TrainingModel->getEmployeeFullNameTab('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(198): App\Models\TrainingModel->insertTrainingDetails('7')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->updateTrainingDetail('7')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-11 02:10:49 --> Call to a member function decrypt() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\TrainingModel.php(104): App\Models\TrainingModel->getEmployeeFullNameTab('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(198): App\Models\TrainingModel->insertTrainingDetails('7')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->updateTrainingDetail('7')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-11 02:11:27 --> Call to undefined function App\Libraries\get_instance()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\TrainingModel.php(124): App\Libraries\commonuserlib::logActionEmployMeHistory(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(198): App\Models\TrainingModel->insertTrainingDetails('7')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->updateTrainingDetail('7')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-11 02:14:51 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:18:42 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:21:50 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:23:05 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:24:39 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:30:44 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:38:03 --> You must set the database table to be used with your query.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(172): CodeIgniter\Model->__call('getEmployeeDeta...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-11 02:39:40 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:46:37 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 02:46:37 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:46:38 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:46:48 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:47:35 --> Call to a member function getEmployeeDetail() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(176): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 02:48:14 --> Not unique table/alias: 'employee'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\TrainingModel.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(192): App\Models\TrainingModel->getemployeedata('3')
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Views\view_training_details.php(41): App\Controllers\ManageTraining->getEmployeeDetail('3')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('view_training_d...', Array, true)
+#9 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('view_training_d...')
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#12 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\managetraining.php(177): view('template', Array)
+#13 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ManageTraining->viewTraining('6')
+#14 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageTraining))
+#15 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#17 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#18 {main}
+CRITICAL - 2022-08-11 08:43:58 --> Class 'App\Models\LoginModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 08:46:52 --> Class 'App\Models\HomeModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\Employee->__construct()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 08:46:53 --> Class 'App\Models\HomeModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\Employee->__construct()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 08:47:55 --> Class 'App\Models\HomeModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\Employee->__construct()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 08:48:01 --> Class 'App\Models\HomeModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\Employee->__construct()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 08:48:30 --> Call to a member function getloggedInusername() on null
+#0 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\FileUploading\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\Employee.php(27): view('template', Array)
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 08:49:03 --> Call to a member function getloggedInusername() on null
+#0 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\FileUploading\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\Employee.php(24): view('template', Array)
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 08:49:25 --> Invalid file: templates/header.php
+#0 C:\xamp\htdocs\FileUploading\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\FileUploading\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\Employee.php(24): view('template', Array)
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 08:49:27 --> Invalid file: templates/header.php
+#0 C:\xamp\htdocs\FileUploading\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\FileUploading\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\Employee.php(24): view('template', Array)
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 08:50:00 --> Invalid file: templates/header.php
+#0 C:\xamp\htdocs\FileUploading\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\FileUploading\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\Employee.php(21): view('template', Array)
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 08:50:54 --> Invalid file: templates/header.php
+#0 C:\xamp\htdocs\FileUploading\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\FileUploading\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\Employee.php(19): view('template', Array)
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 08:50:55 --> Invalid file: templates/header.php
+#0 C:\xamp\htdocs\FileUploading\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\FileUploading\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\Employee.php(19): view('template', Array)
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 08:51:47 --> Invalid file: templates/header.php
+#0 C:\xamp\htdocs\FileUploading\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\FileUploading\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\FileUploading\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\FileUploading\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\Employee.php(19): view('template', Array)
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 08:58:21 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:00:50 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:27:50 --> Undefined property: App\Controllers\FileUpload::$FileModel
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 23, Array)
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 09:27:50 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:29:20 --> Undefined property: App\Controllers\FileUpload::$FileModel
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 23, Array)
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 09:29:20 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:29:23 --> Undefined property: App\Controllers\FileUpload::$FileModel
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 23, Array)
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 09:29:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:29:43 --> Undefined property: App\Controllers\FileUpload::$FileModel
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 23, Array)
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 09:29:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:31:50 --> Class 'Model' not found
+#0 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\File...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\File...')
+#4 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(12): spl_autoload_call('App\\Models\\File...')
+#5 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\FileUpload->__construct()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#10 {main}
+CRITICAL - 2022-08-11 09:31:50 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:31:53 --> Class 'Model' not found
+#0 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\File...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\File...')
+#4 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(12): spl_autoload_call('App\\Models\\File...')
+#5 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\FileUpload->__construct()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#10 {main}
+CRITICAL - 2022-08-11 09:31:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:32:29 --> Class 'Model' not found
+#0 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\File...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\File...')
+#4 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(12): spl_autoload_call('App\\Models\\File...')
+#5 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\FileUpload->__construct()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#10 {main}
+CRITICAL - 2022-08-11 09:32:29 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:32:35 --> Class 'Model' not found
+#0 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\File...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\File...')
+#4 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(12): spl_autoload_call('App\\Models\\File...')
+#5 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\FileUpload->__construct()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#10 {main}
+CRITICAL - 2022-08-11 09:32:35 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:36:21 --> Class 'Model' not found
+#0 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\File...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\File...')
+#4 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(12): spl_autoload_call('App\\Models\\File...')
+#5 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\FileUpload->__construct()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#10 {main}
+CRITICAL - 2022-08-11 09:36:21 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:36:25 --> Class 'Model' not found
+#0 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\File...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\File...')
+#4 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(12): spl_autoload_call('App\\Models\\File...')
+#5 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\FileUpload->__construct()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#10 {main}
+CRITICAL - 2022-08-11 09:36:25 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:41:24 --> Class 'App\Models\AboutModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(890): App\Controllers\FileUpload->__construct()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:41:24 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:45:47 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:45:47 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:47:35 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:47:35 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:48:03 --> Undefined variable: id
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 26, Array)
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 09:48:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:49:15 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:49:15 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:49:50 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:52:06 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:52:06 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:52:34 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:52:34 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:53:29 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:53:29 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:54:18 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:54:18 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:56:06 --> Class 'App\Controllers\FileModel' not found
+#0 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-11 09:56:06 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 09:57:08 --> Undefined property: App\Controllers\FileUpload::$filemodel
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 26, Array)
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addfile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 09:57:08 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:00:32 --> Unknown column 'filename' in 'field list'
+#0 C:\xamp\htdocs\FileUploading\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `fi...')
+#1 C:\xamp\htdocs\FileUploading\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xamp\htdocs\FileUploading\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xamp\htdocs\FileUploading\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xamp\htdocs\FileUploading\app\Models\FileModel.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 10:00:32 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:01:48 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:01:48 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:03:02 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:03:02 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:06:16 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:06:16 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:06:33 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:06:33 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:06:58 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:06:58 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:07:07 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:07:07 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:07:52 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:07:52 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:07:59 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:07:59 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:09:28 --> Call to undefined function App\Models\getVar()
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:09:28 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:11:25 --> Unknown column 'title' in 'field list'
+#0 C:\xamp\htdocs\FileUploading\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `fi...')
+#1 C:\xamp\htdocs\FileUploading\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xamp\htdocs\FileUploading\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xamp\htdocs\FileUploading\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xamp\htdocs\FileUploading\app\Models\FileModel.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#7 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#8 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-11 10:11:25 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:32:56 --> Undefined variable: file_name
+#0 C:\xamp\htdocs\FileUploading\app\Models\FileModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 33, Array)
+#1 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#4 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-11 10:32:56 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:34:42 --> Call to a member function move() on array
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:34:42 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:36:32 --> Call to a member function move() on array
+#0 C:\xamp\htdocs\FileUploading\app\Controllers\FileUpload.php(27): App\Models\FileModel->saveFile()
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(918): App\Controllers\FileUpload->addFile()
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUpload))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:36:32 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:49:07 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xamp\htdocs\FileUploading\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('fileupload/addf...')
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('fileupload/addf...')
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:49:07 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:49:09 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xamp\htdocs\FileUploading\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('fileupload/addf...')
+#1 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('fileupload/addf...')
+#2 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-11 10:49:09 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:49:11 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xamp\\htdocs\\...')
+#1 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#9 {main}
+CRITICAL - 2022-08-11 10:49:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:49:13 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xamp\\htdocs\\...')
+#1 C:\xamp\htdocs\FileUploading\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xamp\htdocs\FileUploading\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamp\htdocs\FileUploading\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 C:\xamp\htdocs\FileUploading\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#9 {main}
+CRITICAL - 2022-08-11 10:49:13 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 308, Array)
+#1 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(308): include()
+#2 C:\xamp\htdocs\FileUploading\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

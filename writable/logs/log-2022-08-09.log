@@ -1,0 +1,1634 @@
+CRITICAL - 2022-08-09 01:52:41 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 85, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->username_exists()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 12:24:12 --> Column 'perm_Address1' cannot be null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `em...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeModel.php(321): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(60): App\Models\EmployeeModel->addemployee()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 12:27:25 --> Column 'perm_Address1' cannot be null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `em...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeModel.php(321): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(60): App\Models\EmployeeModel->addemployee()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 12:29:31 --> Column 'key_employee' cannot be null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `em...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeModel.php(482): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(60): App\Models\EmployeeModel->addemployee()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 12:30:34 --> Column 'key_employee' cannot be null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `em...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeModel.php(482): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(60): App\Models\EmployeeModel->addemployee()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 12:31:03 --> Column 'key_employee' cannot be null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `em...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeModel.php(482): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(60): App\Models\EmployeeModel->addemployee()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 12:34:29 --> Column 'log_rowid' cannot be null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Libraries\commonuserlib.php(624): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeModel.php(724): App\Libraries\commonuserlib->logActionHistory(Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(60): App\Models\EmployeeModel->addemployee()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-09 12:35:04 -->  route cannot be found while reverse-routing.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(64): redirect('http://localhos...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 02:08:08 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:10:05 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:10:29 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:12:57 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:15:44 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:16:06 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:16:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(85): App\Models\EmployeeVendorModel->getVendordata('66')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->addVendorInfo('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 02:21:03 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php on line 338
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(338): CodeIgniter\Database\BaseBuilder->get('')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(86): App\Models\EmployeeVendorModel->getVendorAttributedata('66')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->addVendorInfo('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 02:21:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(87): App\Models\EmployeeVendorModel->getEmployeeVendorBillingData('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->addVendorInfo('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 02:24:54 --> Call to a member function countAllResults() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(87): App\Models\EmployeeVendorModel->getEmployeeVendorBillingData('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->addVendorInfo('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 02:25:27 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:26:15 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:26:17 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:26:26 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:57:51 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:57:53 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 02:59:36 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(155): App\Libraries\commonuserlib::getKeyemployee('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:11:58 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(155): App\Libraries\commonuserlib::getKeyemployee('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:13:28 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(155): App\Libraries\commonuserlib::getKeyemployee('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:14:47 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(156): App\Libraries\commonuserlib::checkpagePermission(Array, '3')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:16:29 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 03:17:00 --> Call to a member function getVar() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:17:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(62): App\Models\EmployeeVendorModel->checkEmpVendorData('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 03:19:11 --> Not unique table/alias: 'emp_vendor'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(316): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(62): App\Models\EmployeeVendorModel->checkEmpVendorData('190')
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-09 03:19:22 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(67): App\Libraries\commonuserlib::getEmployeeFullName('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 03:27:34 --> Class name must be a valid object or a string
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:27:48 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(67): App\Libraries\commonuserlib::getEmployeeFullName('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 03:28:09 --> Call to a member function getEmployeeFullName() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:34:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:35:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(78): App\Models\EmployeeVendorModel->getEmployeeVendorId1('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 03:36:54 --> Not unique table/alias: 'emp_vendor'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(449): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(78): App\Models\EmployeeVendorModel->getEmployeeVendorId1('190')
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-09 14:07:05 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(97): App\Libraries\commonuserlib::logActionHistory(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 03:38:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(130): App\Models\EmployeeVendorModel->checkEmpVendorBillingData(NULL)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 03:39:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:42:02 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php on line 392
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(392): CodeIgniter\Database\BaseBuilder->get('')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeVendorModel.php(203): App\Models\EmployeeVendorModel->checkEmpVendorAppraisalData(NULL)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 03:44:52 --> Call to a member function item() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(164): App\Models\EmployeeVendorModel->updateVendor('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 03:45:17 -->  route cannot be found while reverse-routing.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeVendor.php(197): redirect('http://localhos...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeVendor->updatevendor('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeVendor))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 03:46:49 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 03:48:02 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 03:48:08 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 03:48:09 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:02:34 --> Call to a member function getSegment() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(352): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->viewVendor('134')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 05:02:45 --> Call to a member function getSegment() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(352): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->viewVendor('134')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 05:05:38 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:05:40 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:07:00 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:08:54 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:13:09 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:14:22 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:15:03 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:16:08 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:16:24 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:16:33 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 122, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getWorkCityValues()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:16:56 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:17:04 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 122, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getWorkCityValues()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:18:58 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:19:07 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 122, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getWorkCityValues()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:24:43 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:24:53 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:25:28 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:25:31 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 122, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getWorkCityValues()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:25:49 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 122, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getWorkCityValues()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:27:05 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:27:16 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(126): App\Libraries\commonuserlib::getWorkCityValues('107', '1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getWorkCityValues()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:28:35 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:28:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(126): App\Libraries\commonuserlib->getWorkCityValues('107', '1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getWorkCityValues()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:29:09 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:29:26 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:29:35 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:29:42 --> Call to a member function view() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:31:30 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:32:12 --> You must set the database table to be used with your query.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1764): CodeIgniter\Model->builder()
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(41): CodeIgniter\Model->__get('input')
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(120): App\Models\EmployeeClientModel->updateClient('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#9 {main}
+CRITICAL - 2022-08-09 05:37:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(74): App\Models\EmployeeClientModel->checkEmpClientData('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(120): App\Models\EmployeeClientModel->updateClient('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 05:39:33 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(74): App\Models\EmployeeClientModel->checkEmpClientData('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(120): App\Models\EmployeeClientModel->updateClient('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 05:39:55 --> Call to a member function countAllResults() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(74): App\Models\EmployeeClientModel->checkEmpClientData('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(120): App\Models\EmployeeClientModel->updateClient('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 05:40:27 --> Call to a member function get() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(74): App\Models\EmployeeClientModel->checkEmpClientData('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(120): App\Models\EmployeeClientModel->updateClient('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 05:41:28 --> Call to a member function get() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(74): App\Models\EmployeeClientModel->checkEmpClientData('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(120): App\Models\EmployeeClientModel->updateClient('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 05:43:38 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(79): App\Libraries\commonuserlib::getEmployeeFullName('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(120): App\Models\EmployeeClientModel->updateClient('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 05:44:38 --> Not unique table/alias: 'emp_client'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(92): App\Models\EmployeeClientModel->getEmployeeClientId1('190')
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(120): App\Models\EmployeeClientModel->updateClient('190')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-09 05:45:45 -->  route cannot be found while reverse-routing.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(150): redirect('http://localhos...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->updateclient('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 05:47:41 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:48:08 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:49:01 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:49:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(51): App\Models\EmployeeClientModel->getClientdata('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->addClientinfo('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:51:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(52): App\Models\EmployeeClientModel->getCientAttributedata('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->addClientinfo('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 05:53:02 --> Not unique table/alias: 'va'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `va`.`at...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `va`.`at...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `va`.`at...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `va`.`at...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\EmployeeClientModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\EmployeeClient.php(52): App\Models\EmployeeClientModel->getCientAttributedata('1')
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\EmployeeClient->addClientinfo('190')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeClient))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 05:53:12 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:53:17 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:53:27 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 05:55:29 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:00:09 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:00:51 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:01:47 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:01:54 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:02:23 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:03:11 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:05:01 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:05:19 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:09:48 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:09:57 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:26:53 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:26:58 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:38:50 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(75): App\Libraries\commonuserlib::checkpagePermission(Array, '4')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->deleteClient('13')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 06:41:39 --> Call to a member function deleteClient() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->deleteClient('13')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 06:42:13 --> You must set the database table to be used with your query.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Models\ClientModel.php(1158): CodeIgniter\Model->__call('getVendorBasicd...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(87): App\Models\ClientModel->deleteClient('13')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->deleteClient('13')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#9 {main}
+CRITICAL - 2022-08-09 06:48:32 --> You must set the database table to be used with your query.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Models\ClientModel.php(1169): CodeIgniter\Model->__call('getVendorBasicd...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(87): App\Models\ClientModel->deleteClient('13')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->deleteClient('13')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#9 {main}
+CRITICAL - 2022-08-09 06:48:41 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(113): App\Libraries\commonuserlib::checkpagePermission(Array, '3')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->activeClient('13')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 06:48:49 --> You must set the database table to be used with your query.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Models\ClientModel.php(1169): CodeIgniter\Model->__call('getVendorBasicd...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(87): App\Models\ClientModel->deleteClient('7')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->deleteClient('7')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#9 {main}
+CRITICAL - 2022-08-09 17:19:05 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\ClientModel.php(1182): App\Libraries\commonuserlib::logActionHistory(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(87): App\Models\ClientModel->deleteClient('7')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->deleteClient('7')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 06:49:32 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(113): App\Libraries\commonuserlib::checkpagePermission(Array, '3')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->activeClient('13')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 06:52:20 --> Call to undefined function setFlashdatalang()
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('_list_clients', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('_list_clients')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\clients.php(37): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Clients->index()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clients))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 07:30:59 --> Call to a member function deleteVendor() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->deleteVendor('134')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:31:19 --> Not unique table/alias: 'v'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\VendorModel.php(797): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Models\VendorModel.php(821): App\Models\VendorModel->getVendorBasicdata('134')
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(89): App\Models\VendorModel->deleteVendor('134')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->deleteVendor('134')
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-09 07:31:23 --> Not unique table/alias: 'v'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\VendorModel.php(797): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Models\VendorModel.php(821): App\Models\VendorModel->getVendorBasicdata('134')
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(89): App\Models\VendorModel->deleteVendor('134')
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->deleteVendor('134')
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-09 07:31:37 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xamp\htdocs\hrms_india_upgrade\app\Models\VendorModel.php on line 860
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\VendorModel.php(860): CodeIgniter\Database\BaseBuilder->update('vendor_attribut...', Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(126): App\Models\VendorModel->activeVendor('134')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->activeVendor('134')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 18:02:07 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\VendorModel.php(874): App\Libraries\commonuserlib::logActionHistory(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\vendor.php(126): App\Models\VendorModel->activeVendor('134')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Vendor->activeVendor('134')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vendor))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 07:38:30 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:38:33 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:47:35 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:48:11 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:48:32 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:49:47 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:51:07 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:54:41 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 07:54:57 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:16:33 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:16:35 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:16:58 --> Call to a member function encode() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:18:02 --> Call to a member function item() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:19:41 --> Call to a member function item() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:28:49 --> Call to a member function set_rules() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:32:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:34:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:35:25 --> Method name must be a string
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:35:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:36:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertId()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:36:58 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\ProjectManageModel.php(165): App\Libraries\commonuserlib::getEmployeeFullName('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 08:37:32 --> Call to a member function getEmployeeFullName() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:38:36 --> Call to a member function getEmployeeFullName() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:40:42 --> Call to a member function getEmployeeFullName() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:41:55 --> Call to a member function getEmployeeFullName() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:46:44 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:47:06 --> Call to a member function getEmployeeFullName() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:48:39 --> Call to a member function getEmployeeFullName() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 08:49:22 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\ProjectManageModel.php(165): App\Libraries\commonuserlib::getEmployeeFullName('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 08:49:42 --> Call to a member function getEmployeeFullName() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 19:21:17 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\ProjectManageModel.php(181): App\Libraries\commonuserlib::logActionHistory(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-09 08:51:26 --> Call to a member function insertId() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:52:47 --> Call to a member function insertID() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 08:59:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 09:00:45 --> Call to a member function insertID() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(724): App\Models\ProjectManageModel->save_job_info(Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 09:01:38 --> Call to a member function insertID() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:05:12 --> Call to a member function item() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:07:56 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:08:15 --> Call to a member function item() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:09:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(846): App\Models\ProjectManageModel->delete_attachment_with_empid('incentive_eligi...', '190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 09:11:09 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(872): App\Models\ProjectManageModel->save_benefits()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 09:12:13 -->  route cannot be found while reverse-routing.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(874): redirect('project_managem...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:13:20 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:13:27 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:13:29 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:13:41 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:14:10 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:14:13 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:14:50 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:14:53 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:17:34 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:19:05 --> Column 'createdby' cannot be null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `em...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\ProjectManageModel.php(915): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(872): App\Models\ProjectManageModel->save_benefits()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-09 09:20:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(872): App\Models\ProjectManageModel->save_benefits()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->save_job_project()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 09:20:45 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:25:56 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:36:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(902): App\Models\ProjectManageModel->get_job_info('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 09:38:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(904): App\Models\ProjectManageModel->get_job_descr('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 09:47:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(911): App\Models\ProjectManageModel->get_job_project_benefits('190')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-09 09:48:47 --> Call to a member function flashdata() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('job_project_edi...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(912): view('job_project_edi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:50:39 --> Call to a member function decode() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('job_project_edi...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(912): view('job_project_edi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:51:44 --> Class 'commonuserlib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('job_project_edi...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(912): view('job_project_edi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:52:05 --> Class 'commonuserlib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('job_project_edi...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(912): view('job_project_edi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:52:24 --> Class 'commonuserlib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('job_project_edi...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(912): view('job_project_edi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:52:53 --> Call to a member function flashdata() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('job_project_edi...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(912): view('job_project_edi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:53:32 --> Call to a member function line() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('job_project_edi...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(912): view('job_project_edi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:55:21 --> Call to a member function line() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('job_project_edi...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ProjectManagement.php(912): view('job_project_edi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ProjectManagement->add_job_project('190')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectManagement))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-09 09:55:50 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 09:56:14 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 10:01:50 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 10:03:30 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 10:03:36 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 10:07:14 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 10:07:16 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 10:09:23 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-09 10:11:10 --> Class 'App\Controllers\FTP_lib' not found
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->getFile()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}

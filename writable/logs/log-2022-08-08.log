@@ -1,0 +1,416 @@
+CRITICAL - 2022-08-08 03:47:47 --> Undefined variable: maxemp
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 79, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 03:48:28 --> Undefined variable: maxemp
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 79, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 03:48:54 --> Undefined variable: employee_report
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Views\employeelist_view.php(430): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 430, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('employeelist_vi...', Array, true)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('employeelist_vi...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#6 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(55): view('template', Array)
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#12 {main}
+CRITICAL - 2022-08-08 04:33:41 --> Undefined variable: maxemp
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\Employee.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 79, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Employee->addEmployee()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 04:36:43 --> Undefined property: App\Controllers\Ajax_Post_Controller::$security
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\ajax_post_controller.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 80, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\Ajax_Post_Controller->username_exists()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax_Post_Controller))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 04:43:16 --> Call to a member function getOldData() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 04:44:06 --> Call to a member function getOldData() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 04:44:17 --> Call to a member function getOldData() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 04:44:21 --> Call to a member function getOldData() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 04:45:08 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(88): App\Libraries\commonuserlib::getOldData(Array, 'role_lkup', 'role_id', '1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-08 04:45:42 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(88): App\Libraries\commonuserlib::getOldData(Array, 'role_lkup', 'role_id', '1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-08 04:47:05 --> Call to a member function select() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(88): App\Libraries\commonuserlib->getOldData(Array, 'role_lkup', 'role_id', '1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-08 04:50:01 --> Call to undefined function App\Libraries\get_instance()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(100): App\Libraries\commonuserlib::logUpdateHistory(Object(stdClass), Array, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-08 04:50:33 --> Call to undefined function App\Libraries\get_instance()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(100): App\Libraries\commonuserlib::logUpdateHistory(Object(stdClass), Array, Array)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#7 {main}
+CRITICAL - 2022-08-08 04:52:00 --> You must set the database table to be used with your query.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(118): CodeIgniter\Model->__call('getUserpermissi...', Array)
+#3 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(107): App\Models\UserPermissionModel->updateUserpertype('1')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#9 {main}
+CRITICAL - 2022-08-08 04:56:00 --> Call to undefined function App\Controllers\setFlashdatalang()
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission('1')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:10:17 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:18:49 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('userpermission/...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('userpermission/...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 07:19:08 --> Call to a member function getVar() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(93): App\Models\UserPermissionModel->addUserpertype()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 07:20:50 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:21:35 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:21:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(93): App\Models\UserPermissionModel->addUserpertype()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 07:22:32 --> Duplicate entry 'Test userpermission ' for key 'role_name'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ro...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(280): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(93): App\Models\UserPermissionModel->addUserpertype()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-08 07:23:52 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:32:41 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('userpermission/...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('userpermission/...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 07:33:44 --> Call to a member function set_rules() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:34:08 --> Call to a member function setRules() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:37:33 --> Call to a member function setRules() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:37:36 --> Call to a member function setRules() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:43:17 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:43:59 --> Duplicate entry 'Pramod' for key 'role_name'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ro...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(280): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(94): App\Models\UserPermissionModel->addUserpertype()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-08 07:44:50 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:48:09 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:48:33 --> Duplicate entry 'Test user' for key 'role_name'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ro...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(280): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(94): App\Models\UserPermissionModel->addUserpertype()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-08 07:48:52 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:49:01 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:49:05 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:49:25 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:51:36 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:51:48 --> Call to a member function post() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->checkUserExists()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-08-08 07:58:34 --> Duplicate entry 'test' for key 'role_name'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ro...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(291): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(94): App\Models\UserPermissionModel->addUserpertype()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-08 08:09:16 --> Duplicate entry 'gbhnbhjng' for key 'role_name'
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ro...')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Models\UserPermissionModel.php(291): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(94): App\Models\UserPermissionModel->addUserpertype()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->updateUserpermission()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-08 08:20:26 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(225): App\Libraries\commonuserlib::checkpagePermission(Array, '4')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->deleteUserpermission('39')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 08:21:08 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(225): App\Libraries\commonuserlib::checkpagePermission(Array, '4')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->deleteUserpermission('39')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 08:21:10 --> Using $this when not in object context
+#0 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\userpermission.php(225): App\Libraries\commonuserlib::checkpagePermission(Array, '4')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\UserPermission->deleteUserpermission('39')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserPermission))
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#6 {main}
+CRITICAL - 2022-08-08 08:32:31 --> Call to a member function getSegment() on null
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include()
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(1): view('templates/heade...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#5 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\importemployees.php(30): view('template', Array)
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ImportEmployees->index()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImportEmployees))
+#8 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#11 {main}
+CRITICAL - 2022-08-08 08:35:10 -->  route cannot be found while reverse-routing.
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\importemployees.php(102): redirect('importemployees')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ImportEmployees->importEmployees()
+#4 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImportEmployees))
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#8 {main}
+CRITICAL - 2022-08-08 08:38:32 --> syntax error, unexpected end of file
+#0 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('_list_import_cl...', Array, true)
+#1 C:\xamp\htdocs\hrms_india_upgrade\app\Views\template.php(2): view('_list_import_cl...')
+#2 C:\xamp\htdocs\hrms_india_upgrade\system\View\View.php(246): include('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\hrms_india_upgrade\system\Common.php(1119): CodeIgniter\View\View->render('template', Array, true)
+#4 C:\xamp\htdocs\hrms_india_upgrade\app\Controllers\importemployees.php(38): view('template', Array)
+#5 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(918): App\Controllers\ImportEmployees->index()
+#6 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ImportEmployees))
+#7 C:\xamp\htdocs\hrms_india_upgrade\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamp\htdocs\hrms_india_upgrade\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xamp\htdocs\hrms_india_upgrade\system\Commands\Server\rewrite.php(34): require_once('C:\\xamp\\htdocs\\...')
+#10 {main}
